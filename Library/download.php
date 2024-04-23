@@ -1,7 +1,7 @@
 <?php 
 if ( isset($_GET['imagename']) ) {
     $filename = $_GET['imagename'];
-    $filepath = '../files/bancoCampanas/'.$_GET['id'].'/images/'.$filename;
+   
 }
 header('Content-Description: File Transfer');
 header('Content-Type: application/octet-stream');
